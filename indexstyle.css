@@ -33,3 +33,36 @@ font-family: 'Cinzel', serif;
 
 
 
+.w3layouts_copy_right {
+    padding: 1.5em 0;
+    text-align: center;
+	background:-webkit-linear-gradient(#ffd985,#e69f06);
+	background:-moz-linear-gradient(#ffd985,#e69f06);
+	background:-ms-linear-gradient(#ffd985,#e69f06);
+    background: linear-gradient(to right bottom,#ffd985,#e69f06);
+}
+.w3layouts_copy_right p {
+    color: #fff;
+    font-weight: 600;
+    letter-spacing: 2px;
+    font-size: 1.1em;
+}
+.w3layouts_copy_right p a{
+	color:#002147;
+	text-decoration:none;
+}
+.w3layouts_copy_right p a:hover{
+	color:#fff;
+}
+.sidebar .widget-content {
+	padding:10px;
+	margin:0;
+	font-size:12px;
+	}
+	.sidebar .widget-content a {
+	color:#333333;
+	}
+	.sidebar .widget-content a:hover {
+	color:#222222;
+	}
+
