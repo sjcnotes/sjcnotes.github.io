@@ -1,0 +1,27 @@
+body
+{
+	background-image:url("p.png");
+	background-color:#e01171;
+	background-repeat:no-repeat;
+	background-image: cover;
+
+	background-image:url(".jpg");
+	background-repeat:no-repeat;
+	background-image: cover;
+
+}
+
+
+
+.div1
+{
+	text-align: center;
+	background-color:#f5dea3;
+	height: 900px;
+	width: 600px;
+
+	display: inline-block;
+
+
+}
+

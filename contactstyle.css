@@ -1,0 +1,33 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+.body{
+	 background: #efefef;
+	 front-family: sans-serif;
+	}
+ .title-box{
+	text-align:center;
+	margin: 100px auto 50px;
+
+}
+
+
+*profile-box {
+	width: 240;
+	height: 240px;
+	background: #fff;
+	border-radius: 4px;
+	margin-bottom:30px;
+	box-shadow: 0 10px 10px rgba(115,193,255,0.1);
+	padding: 20px;
+}
+
+
+*profile-box img{ 
+	width: 100px;
+	position: absolute;
+	top: 20px;
+	right: 20px;
+	border-radius: 4px;
+}

@@ -1,0 +1,18 @@
+body
+{
+	background-image:url(".jpg");
+	background-color:#f8b400;
+	background-repeat:no-repeat;
+	background-image: cover;
+}
+.div1
+{
+	text-align: center;
+	background-color:#f8b400;
+	height: 300px;
+	width: 200px;
+	display: inline-block;
+
+
+}
+

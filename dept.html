@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Form</title>
+	<link rel="stylesheet" type="text/css" href="deptstyle.css">
+<link rel="stylesheet" type="text/css" href="cse.html">
+
+
+<style>
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover:not(.active) {
+  background-color: #111;
+}
+
+.active {
+  background-color: #4CAF50;
+}
+p{
+  text-align:justify;
+}
+</style>
+
+	<style>
+.button {
+  display: inline-block;
+  border-radius: 40px;
+  background-color:#916dd5 ;
+  border: none;
+  color: #FFFFFF;
+  text-align: center;
+  font-size: 28px;
+  padding: 20px;
+  width: 1300px;
+  transition: all 4.9s;
+  cursor: pointer;
+  margin: 5px;
+}
+
+.button span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.button span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+.button:hover span {
+  padding-right: 25px;
+}
+
+.button:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+</style>
+</head>
+<script type="text/javascript">
+	 function phy()
+  {
+ 
+    window.open("phy.html");
+
+  } function chem()
+  {
+
+    window.open("chem.html");
+
+  }
+
+   function math()
+  {
+    
+    window.open("math.html");
+
+  }
+	function cse()
+	{
+
+		window.open("cse.html");
+
+	}
+	function ise()
+	{
+
+    window.open("ise.html");
+	}
+  function Mech()
+  {
+
+    window.open("mech.html");
+  }
+   
+    
+    function ELECTRONICS()
+  {
+  
+    window.open("electronics.html");
+  }
+
+    function AERONAUTICAL()
+  {
+
+    window.open("aero.html");
+  }
+
+    function CIVIL()
+  {
+
+    window.open("civil.html");
+  }
+</script>
+
+<body>
+
+
+<ul>
+  <li><a class="active" href="index.html">Home</a></li>
+  <li><a href="gallery.html">Career</a></li>
+  <li><a href="dept.html">Department</a></li>
+   <li><a href="ques.html">Question Papers</a></li>
+ <li><a href="about.html">About</a></li>
+ 
+</ul>
+ 
+
+
+
+	<center><h1 style="background-color:green;">Department list </h1></center>
+  <hr>
+
+  <button class="button" style="vertical-align:middle" onclick="phy()"><span>PHYSICS CYCLE ENGINEERING   </span></button><br>
+   <button class="button" style="vertical-align:middle" onclick="chem()"><span>CHEMISTRY CYCLE ENGINEERING   </span></button><br>
+   <button class="button" style="vertical-align:middle" onclick="math()"><span>ENGINEERING  MATHEMATICS  </span></button><br>
+  <button class="button" style="vertical-align:middle" onclick="cse()"><span>COMPUTER SCIENCE ENGINEERING </span></button><br>
+	<button class="button" style="vertical-align:middle" onclick="ise()"><span>INFORMATION SCIENCE ENGINEERING  </span></button><br>
+	<button class="button" style="vertical-align:middle" onclick="Mech()"><span>MECHANICAL ENGINEERING</span></button><br>
+  <button class="button" style="vertical-align:middle" onclick="ELECTRONICS()"><span>ELECTRONICS & COMMUNICATION ENGINEERING </span></button><br>
+  <button class="button" style="vertical-align:middle" onclick="AERONAUTICAL()"><span>AERONAUTICAL ENGINEERING</span></button><br>
+   <button class="button" style="vertical-align:middle" onclick="CIVIL()"><span>CIVIL ENGINEERING</span></button><br>
+
+   
+</body>
+</html>

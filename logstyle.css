@@ -1,0 +1,24 @@
+body
+{
+	background-image:url("16.jpg");
+	background-color:#f5dea3;
+	background-repeat:no-repeat;
+	background-image: cover;
+}
+	 width:400px;
+	 height: 240px;
+	padding-top: 50px;
+	padding-left: 50px;
+	padding-right: 10px;
+	padding-bottom: 50px;
+	border:5px solid white;
+	margin:0;
+	background-color:#4a69bb ;
+	opacity: 0.9;
+	margin-top:100px;
+	margin-right:150px;
+	padding-top:20px;
+	font-size:70%;
+	float:right;
+	color:white;
+}
