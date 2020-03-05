@@ -32,6 +32,90 @@ li a:hover:not(.active) {
 .active {
   background-color: #4CAF50;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+{
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #f1f1f1;
+  padding: 20px;
+  font-family: Arial;
+}
+
+/* Center website */
+.main {
+  max-width: 1000px;
+  margin: auto;
+}
+
+h1 {
+  font-size: 50px;
+  word-break: break-all;
+}
+
+.row {
+  margin: 8px -16px;
+}
+
+/* Add padding BETWEEN each column */
+.row,
+.row > .column {
+  padding: 8px;
+}
+
+/* Create four equal columns that floats next to each other */
+.column {
+  float: left;
+  width: 25%;
+}
+
+/* Clear floats after rows */ 
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Content */
+.content {
+  background-color: white;
+  padding: 10px;
+}
+
+/* Responsive layout - makes a two column-layout instead of four columns */
+@media screen and (max-width: 900px) {
+  .column {
+    width: 50%;
+  }
+}
+
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .column {
+    width: 100%;
+  }
+}
+
+
+
+
+
+
+
 </style>
 
 
@@ -113,6 +197,36 @@ li a:hover:not(.active) {
 <body>
 
 
+
+
+
+
+
+
+
+
+
+
+<div class="content">
+  <img src="hm.jpg" alt="Bear" style="width:90%">
+
+
+
+
+
+
+  <h1>Mr. Sunil Kumar</h1>
+  <h2>HR Manager</h2>
+  <h3>SJCIT,CHICKBALLAPUR,562101</h3>
+  
+
+
+
+
+
+  <h4 style="background-color:white;">SJCIT is blessed with a learning tradition and scholastic discipline that primely made good creative students. And yet, reaching out to the millions of youth seeking to join the learning revolution, is an enigma. Skilling thousands of youth in this decade may not be yet on the national drawing boards as one awaits fresh set of structures straddling the educational sector. As we anxiously await a renaissance at college, we have a student from the Information Science department named Raushan Kumar who developed a comprehensive learning package for the students in the form of a website. This is the evident of the hard work and dedication by Raushan. The help offered by him will help lakhs of students in Karnataka and I am proud of him in this juncture. Emergence of universal learning systems with outcome based education, emphasizing on experiential learning empowered by web based scenario building, is now the menu of many institutions of learning abroad, and we at SJCIT strive hard for it</h4>
+  <p></p>
+</div>
 
 
 
